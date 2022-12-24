@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gradient-to-r from-green-400 to-emerald-600">
+    <header class="m-16 flex justify-between">
+      <div>
+        <a
+          class="open px-8 py-3 bg-white text-xl font-bold rounded-full"
+          href="#"
+          >Show modal 1</a
+        >
+      </div>
+      <div>
+        <a
+          class="open px-8 py-3 bg-white text-xl font-bold rounded-full"
+          href="#"
+          >Show modal 2</a
+        >
+      </div>
+      <div>
+        <a
+          class="open px-8 py-3 bg-white text-xl font-bold rounded-full"
+          href="#"
+          >Show modal 3</a
+        >
+      </div>
+    </header>
+    <div
+      class="modal absolute p-14 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] bg-white rounded-lg shadow-lg z-10 hidden"
+    >
+      <a href="#" class="close absolute top-5 right-5 text-2xl font-bold"
+        >&#10005;</a
+      >
+      <p class="mb-4 text-2xl font-bold">I'm a modal window 😍</p>
+      <p class="text-xl">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
